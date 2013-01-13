@@ -1,0 +1,32 @@
+papiex version                : 0.99rc9
+Executable                    : /p/lscratchrza/rountree/single-node/bmarks/synthetic/scale-mem/bmark3
+Arguments                     : 
+Processor                     : Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+Clockrate                     : 2601.000000
+Hostname                      : rzmerl58
+Options                       : DIR,PAPI_L3_TCA,PAPI_L3_TCM,NO_MPI_GATHER,NO_MPI_PROF
+Domain                        : User
+Parent process id             : 16205
+Process id                    : 16232
+Thread id:		2
+Start                         : Sun Jan 13 11:04:29 2013
+Finish                        : Sun Jan 13 11:06:52 2013
+
+Derived Metrics:
+CPU Utilization ..............................             0.00
+I/O Cycles % .................................             0.00
+
+
+Real usecs ...................................      1.43276e+08
+Real cycles ..................................      3.71608e+11
+Proc usecs ...................................           142388
+Proc cycles ..................................      3.70346e+08
+I/O cycles ...................................                0
+PAPI_L3_TCA ..................................            70672
+PAPI_L3_TCM ..................................            69787
+
+Event descriptions:
+PAPI_L3_TCA                   : Level 3 total cache accesses
+PAPI_L3_TCM                   : Level 3 cache misses
+
+Derived event descriptions:
