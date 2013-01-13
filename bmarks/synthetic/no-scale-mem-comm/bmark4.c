@@ -16,7 +16,8 @@
 //Total array size = 65536 * 8 bytes; 512 MB
 //#define FIXED_SZ 131072
 //#define FIXED_SZ 16777216
-#define FIXED_SZ (20 * 1024 * 1024 * 16)
+//16 to 2
+#define FIXED_SZ (20 * 1024 * 1024 * 2)
 #define MSG_SZ 262144
 
 

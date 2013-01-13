@@ -10,7 +10,9 @@
 
 //Large is 2^32 atm
 #define LARGE 42949672960
-#define ITERS 20
+//20 to 3
+#define ITERS 3
+
 #define COMM_ITERS 256
 //#define MSG_SZ 65536
 #define MSG_SZ 262144

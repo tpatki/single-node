@@ -4,7 +4,7 @@
 
 #make sp-mz CLASS=A NPROCS=16
 
-#make -j8 sp-mz CLASS=C NPROCS=1
+make -j8 sp-mz CLASS=C NPROCS=1
 #make -j8 sp-mz CLASS=C NPROCS=2
 make -j8 sp-mz CLASS=C NPROCS=4
 make -j8 sp-mz CLASS=C NPROCS=8

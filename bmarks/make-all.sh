@@ -30,13 +30,13 @@ sh makeBT_MZ.sh
 sh makeSP_MZ.sh
 sh makeLU_MZ.sh
 
-#cd ../synthetic/scale-cpu
-#make clean && make
+cd ../synthetic/scale-cpu
+make clean && make
 
-#cd ../no-scale-cpu-comm
-#make clean && make
+cd ../no-scale-cpu-comm
+make clean && make
 
-cd ../synthetic/no-scale-mem-comm
+cd ../no-scale-mem-comm
 make clean && make
 
 cd ../scale-mem

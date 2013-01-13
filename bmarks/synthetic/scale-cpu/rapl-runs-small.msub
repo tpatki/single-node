@@ -1,19 +1,16 @@
 #!/bin/bash
 #MSUB -lpartition=rzmerl
 #MSUB -A lc
-#MSUB -l nodes=32
+#MSUB -l nodes=1
 #MSUB -q pbatch
 #MSUB -m abe
 #MSUB -M rountree@llnl.gov,tpatki@email.arizona.edu
-#MSUB -l walltime=08:00:00
+#MSUB -l walltime=10:00:00
 
 set -x
 
 i=16
 minthreads=4
-
-j=8
-maxnodes=32
 
 export PKG_MINW_MINS=0x38198
 export PP0_MINW_MINS=0x38198
@@ -22,7 +19,7 @@ export MSR_PKG_POWER_LIMIT=0x0
 export MSR_PP0_POWER_LIMIT=0x0
 export MSR_DRAM_POWER_LIMIT=0x0
 export MSR_RANK_MOD=1 #One task per node, the rest are threads
-export SAMPLE=1
+export SAMPLE=0
 
 t=0
 
@@ -30,16 +27,12 @@ t=0
 #do
 
 export TURBO_ENABLE=1
-export FUNC_INTERCEPT=1
+export FUNC_INTERCEPT=0
 #unbounded measurement
 export READ_WRITE=0
 export READ_ONLY=1
 
 i=16
-j=8
-        while [ $j -le $maxnodes ]
-        do
-        i=16
         while [ $i -ge $minthreads ]
         do
                 export OMP_NUM_THREADS=$i
@@ -54,35 +47,32 @@ j=8
                 srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo | grep MHz >> info
                 srun --nodes=1 --ntasks=1 -o host_info hostname
                 echo 'threads/node: '$i >> info
-                echo 'nodes: ' $j >> info
-                echo 'turbo: ' 1 >> info
+                echo 'nodes: ' 1 >> info
+                echo 'turbo: 1 '>> info
 
-                srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../bmark1
+
+        	srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark1
+
+                #srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../../bin/sp-mz.C.$j
 
                 cd ../
 
                 i=$(($i-2))
         done
-        j=$(($j+2))
-        done
 
 
 
 
-#51, 65, 80 and 95W. Smallest time window.
+#51 to 100W. Smallest time window. Increments of 5W.
 
 export TURBO_ENABLE=0
 export FUNC_INTERCEPT=0
 export READ_WRITE=1
 export READ_ONLY=0
 
-for pkg in 0x38198 0x038208 0x038280 0x0382f8
+for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
 do
-i=16
-j=8
 export MSR_PKG_POWER_LIMIT=${pkg}
-	while [ $j -le $maxnodes ]
-	do
 	i=16
 	while [ $i -ge $minthreads ]
 	do
@@ -98,21 +88,24 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 		srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo | grep MHz >> info
 		srun --nodes=1 --ntasks=1 -o host_info hostname
 		echo 'threads/node: '$i >> info
-		echo 'nodes: ' $j >> info
-                echo 'turbo: ' 0 >> info
+		echo 'nodes: ' 1 >> info
+                echo 'turbo: 0'  >> info
 
-		srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../bmark1
+
+                #srun --nodes=1 --ntasks=1 -e f.err ../../sphot
+        	#srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../sphot
+        	srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark1
+
+#		srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../../bin/sp-mz.C.$j  
 
 		cd ../
 
 		i=$(($i-2))
 	done
-	j=$(($j+2))
-	done
 done
 
 #git add .
-#git commit -a -m "Results-synth-1"
+#git commit -a -m "Results sphot"
 #git push
 
 #done
