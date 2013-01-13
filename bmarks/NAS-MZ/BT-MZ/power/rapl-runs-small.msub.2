@@ -1,0 +1,109 @@
+#!/bin/bash
+#MSUB -lpartition=rzmerl
+#MSUB -A lc
+#MSUB -l nodes=1
+#MSUB -q pbatch
+#MSUB -m abe
+#MSUB -M rountree@llnl.gov,tpatki@email.arizona.edu
+#MSUB -l walltime=10:00:00
+
+set -x
+
+i=16
+minthreads=4
+
+export PKG_MINW_MINS=0x38198
+export PP0_MINW_MINS=0x38198
+export DRAM_MINW_MINS=0x38078
+export MSR_PKG_POWER_LIMIT=0x0
+export MSR_PP0_POWER_LIMIT=0x0
+export MSR_DRAM_POWER_LIMIT=0x0
+export MSR_RANK_MOD=1 #One task per node, the rest are threads
+export SAMPLE=0
+
+t=0
+
+#for t in 0 1
+#do
+
+export TURBO_ENABLE=1
+export FUNC_INTERCEPT=0
+#unbounded measurement
+export READ_WRITE=0
+export READ_ONLY=1
+
+i=16
+        while [ $i -ge $minthreads ]
+        do
+                export OMP_NUM_THREADS=$i
+		export KMP_AFFINITY=scatter
+                name=`date +%Y_%m_%d_%H_%M_%S_%N`
+                mkdir $name
+                cd $name
+                touch out.dat
+                env > env
+                echo $name >> info
+                uname -a >> info
+                srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo | grep MHz >> info
+                srun --nodes=1 --ntasks=1 -o host_info hostname
+                echo 'threads/node: '$i >> info
+                echo 'nodes: ' 1 >> info
+                echo 'turbo: 1 '>> info
+
+        	srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+
+                #srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../../bin/sp-mz.C.$j
+
+                cd ../
+
+                i=$(($i-2))
+        done
+
+
+
+
+#51 to 100W. Smallest time window. Increments of 5W.
+
+export TURBO_ENABLE=0
+export FUNC_INTERCEPT=0
+export READ_WRITE=1
+export READ_ONLY=0
+
+for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
+do
+export MSR_PKG_POWER_LIMIT=${pkg}
+	i=16
+	while [ $i -ge $minthreads ]
+	do
+		export OMP_NUM_THREADS=$i
+		export KMP_AFFINITY=scatter
+		name=`date +%Y_%m_%d_%H_%M_%S_%N`
+		mkdir $name
+		cd $name
+		touch out.dat
+		env > env
+		echo $name >> info
+		uname -a >> info
+		srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo | grep MHz >> info
+		srun --nodes=1 --ntasks=1 -o host_info hostname
+		echo 'threads/node: '$i >> info
+		echo 'nodes: ' 1 >> info
+                echo 'turbo: 0'  >> info
+
+
+                #srun --nodes=1 --ntasks=1 -e f.err ../../sphot
+        	srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+
+#		srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../../bin/sp-mz.C.$j  
+
+		cd ../
+
+		i=$(($i-2))
+	done
+done
+
+#git add .
+#git commit -a -m "Results sphot"
+#git push
+
+#done

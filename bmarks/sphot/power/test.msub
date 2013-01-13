@@ -1,0 +1,52 @@
+#!/bin/bash
+#MSUB -lpartition=rzmerl
+#MSUB -A lc
+#MSUB -l nodes=4
+#MSUB -q pbatch
+#MSUB -m abe
+#MSUB -M rountree4@llnl.gov
+#MSUB -l walltime=02:00:00
+
+export PKG_MINW_MINS=0x38198
+export PP0_MINW_MINS=0x38198
+export DRAM_MINW_MINS=0x38078
+export MSR_PKG_POWER_LIMIT=0x0
+export MSR_PP0_POWER_LIMIT=0x0
+export MSR_DRAM_POWER_LIMIT=0x0
+export MSR_RANK_MOD=1 #One task per node, the rest are threads
+export READ_ONLY=1
+export SAMPLE=0
+export TURBO_ENABLE=0 
+
+	minthreads=16
+	i=16
+	while [ $i -ge $minthreads ]
+	do
+		export OMP_NUM_THREADS=$i
+		name=`date +%Y_%m_%d_%H_%M_%S_%N`
+		mkdir $name
+		cd $name
+		touch out.dat
+		env > env
+		echo $name >> info
+		uname -a >> info
+		srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo | grep MHz >> info
+		srun --nodes=1 --ntasks=1 -o host_info hostname
+		echo 'threads/node: '$i >> info
+		echo 'nodes: ' 4 >> info
+
+		cp ../../opac.txt .
+                cp ../../input.dat .
+
+                srun --nodes=4 --ntasks=4 -e f.err ../../sphot
+
+		cd ../
+
+		i=$(($i-2))
+	done
+
+
+git add .
+git commit -a -m "Results"
+git push
+

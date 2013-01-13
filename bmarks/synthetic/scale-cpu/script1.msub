@@ -1,0 +1,14 @@
+#!/bin/bash
+#MSUB -lpartition=cab
+#MSUB -A asccasc
+#MSUB -l nodes=4
+#MSUB -q pbatch
+#MSUB -m abe
+#MSUB -M tpatki@email.arizona.edu
+#MSUB -l walltime=00:15:00
+
+export OMP_NUM_THREADS=16
+srun --nodes=4 --ntasks=4 -o test20.out ./bmark1
+
+export OMP_NUM_THREADS=1
+srun --nodes=4 --ntasks=4 -o test21.out ./bmark1

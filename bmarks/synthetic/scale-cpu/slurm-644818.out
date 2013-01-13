@@ -1,0 +1,4184 @@
++ i=16
++ minthreads=4
++ j=8
++ maxnodes=32
++ export PKG_MINW_MINS=0x38198
++ PKG_MINW_MINS=0x38198
++ export PP0_MINW_MINS=0x38198
++ PP0_MINW_MINS=0x38198
++ export DRAM_MINW_MINS=0x38078
++ DRAM_MINW_MINS=0x38078
++ export MSR_PKG_POWER_LIMIT=0x0
++ MSR_PKG_POWER_LIMIT=0x0
++ export MSR_PP0_POWER_LIMIT=0x0
++ MSR_PP0_POWER_LIMIT=0x0
++ export MSR_DRAM_POWER_LIMIT=0x0
++ MSR_DRAM_POWER_LIMIT=0x0
++ export MSR_RANK_MOD=1
++ MSR_RANK_MOD=1
++ export SAMPLE=1
++ SAMPLE=1
++ t=0
++ export TURBO_ENABLE=1
++ TURBO_ENABLE=1
++ export FUNC_INTERCEPT=1
++ FUNC_INTERCEPT=1
++ export READ_WRITE=0
++ READ_WRITE=0
++ export READ_ONLY=1
++ READ_ONLY=1
++ i=16
++ j=8
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_25_667609022
++ mkdir 2012_11_19_11_35_25_667609022
++ cd 2012_11_19_11_35_25_667609022
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_25_667609022
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 1
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_26_433564072
++ mkdir 2012_11_19_11_35_26_433564072
++ cd 2012_11_19_11_35_26_433564072
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_26_433564072
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 1
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_26_980276388
++ mkdir 2012_11_19_11_35_26_980276388
++ cd 2012_11_19_11_35_26_980276388
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_26_980276388
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 1
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_27_328721996
++ mkdir 2012_11_19_11_35_27_328721996
++ cd 2012_11_19_11_35_27_328721996
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_27_328721996
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 1
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_27_936341154
++ mkdir 2012_11_19_11_35_27_936341154
++ cd 2012_11_19_11_35_27_936341154
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_27_936341154
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 1
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl32: task 4: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_28_279332793
++ mkdir 2012_11_19_11_35_28_279332793
++ cd 2012_11_19_11_35_28_279332793
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_28_279332793
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 1
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_28_616887104
++ mkdir 2012_11_19_11_35_28_616887104
++ cd 2012_11_19_11_35_28_616887104
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_28_616887104
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 1
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_29_069574446
++ mkdir 2012_11_19_11_35_29_069574446
++ cd 2012_11_19_11_35_29_069574446
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_29_069574446
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 1
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_29_730407504
++ mkdir 2012_11_19_11_35_29_730407504
++ cd 2012_11_19_11_35_29_730407504
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_29_730407504
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 1
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_30_049120172
++ mkdir 2012_11_19_11_35_30_049120172
++ cd 2012_11_19_11_35_30_049120172
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_30_049120172
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 1
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_30_348826886
++ mkdir 2012_11_19_11_35_30_348826886
++ cd 2012_11_19_11_35_30_348826886
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_30_348826886
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 1
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_30_664745149
++ mkdir 2012_11_19_11_35_30_664745149
++ cd 2012_11_19_11_35_30_664745149
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_30_664745149
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 1
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_31_139730757
++ mkdir 2012_11_19_11_35_31_139730757
++ cd 2012_11_19_11_35_31_139730757
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_31_139730757
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 1
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl73: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 11: Exited with exit code 2
+srun: error: rzmerl60: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl80: task 14: Exited with exit code 2
+srun: error: rzmerl78: task 13: Exited with exit code 2
+srun: error: rzmerl56: task 9: Exited with exit code 2
+srun: error: rzmerl89: task 15: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_31_779321488
++ mkdir 2012_11_19_11_35_31_779321488
++ cd 2012_11_19_11_35_31_779321488
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_31_779321488
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 1
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_32_114451780
++ mkdir 2012_11_19_11_35_32_114451780
++ cd 2012_11_19_11_35_32_114451780
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_32_114451780
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 1
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_32_788927953
++ mkdir 2012_11_19_11_35_32_788927953
++ cd 2012_11_19_11_35_32_788927953
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_32_788927953
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 1
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_33_135102047
++ mkdir 2012_11_19_11_35_33_135102047
++ cd 2012_11_19_11_35_33_135102047
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_33_135102047
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 1
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_33_432795779
++ mkdir 2012_11_19_11_35_33_432795779
++ cd 2012_11_19_11_35_33_432795779
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_33_432795779
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 1
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_33_757731035
++ mkdir 2012_11_19_11_35_33_757731035
++ cd 2012_11_19_11_35_33_757731035
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_33_757731035
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 1
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_34_065488453
++ mkdir 2012_11_19_11_35_34_065488453
++ cd 2012_11_19_11_35_34_065488453
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_34_065488453
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 1
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_34_409230762
++ mkdir 2012_11_19_11_35_34_409230762
++ cd 2012_11_19_11_35_34_409230762
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_34_409230762
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 1
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ export TURBO_ENABLE=0
++ TURBO_ENABLE=0
++ export FUNC_INTERCEPT=0
++ FUNC_INTERCEPT=0
++ export READ_WRITE=1
++ READ_WRITE=1
++ export READ_ONLY=0
++ READ_ONLY=0
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x38198
++ MSR_PKG_POWER_LIMIT=0x38198
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_34_725115877
++ mkdir 2012_11_19_11_35_34_725115877
++ cd 2012_11_19_11_35_34_725115877
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_34_725115877
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_35_036081747
++ mkdir 2012_11_19_11_35_35_036081747
++ cd 2012_11_19_11_35_35_036081747
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_35_036081747
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_35_360877822
++ mkdir 2012_11_19_11_35_35_360877822
++ cd 2012_11_19_11_35_35_360877822
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_35_360877822
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_35_692651500
++ mkdir 2012_11_19_11_35_35_692651500
++ cd 2012_11_19_11_35_35_692651500
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_35_692651500
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_36_067167094
++ mkdir 2012_11_19_11_35_36_067167094
++ cd 2012_11_19_11_35_36_067167094
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_36_067167094
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_36_416942219
++ mkdir 2012_11_19_11_35_36_416942219
++ cd 2012_11_19_11_35_36_416942219
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_36_416942219
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_36_744594653
++ mkdir 2012_11_19_11_35_36_744594653
++ cd 2012_11_19_11_35_36_744594653
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_36_744594653
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_37_101343166
++ mkdir 2012_11_19_11_35_37_101343166
++ cd 2012_11_19_11_35_37_101343166
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_37_101343166
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_37_429876853
++ mkdir 2012_11_19_11_35_37_429876853
++ cd 2012_11_19_11_35_37_429876853
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_37_429876853
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_37_759051725
++ mkdir 2012_11_19_11_35_37_759051725
++ cd 2012_11_19_11_35_37_759051725
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_37_759051725
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_38_087982937
++ mkdir 2012_11_19_11_35_38_087982937
++ cd 2012_11_19_11_35_38_087982937
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_38_087982937
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_38_466028338
++ mkdir 2012_11_19_11_35_38_466028338
++ cd 2012_11_19_11_35_38_466028338
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_38_466028338
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_38_805147075
++ mkdir 2012_11_19_11_35_38_805147075
++ cd 2012_11_19_11_35_38_805147075
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_38_805147075
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_39_125090381
++ mkdir 2012_11_19_11_35_39_125090381
++ cd 2012_11_19_11_35_39_125090381
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_39_125090381
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_39_447664752
++ mkdir 2012_11_19_11_35_39_447664752
++ cd 2012_11_19_11_35_39_447664752
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_39_447664752
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_39_757146850
++ mkdir 2012_11_19_11_35_39_757146850
++ cd 2012_11_19_11_35_39_757146850
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_39_757146850
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_40_095809058
++ mkdir 2012_11_19_11_35_40_095809058
++ cd 2012_11_19_11_35_40_095809058
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_40_095809058
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_40_427996059
++ mkdir 2012_11_19_11_35_40_427996059
++ cd 2012_11_19_11_35_40_427996059
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_40_427996059
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_40_818459411
++ mkdir 2012_11_19_11_35_40_818459411
++ cd 2012_11_19_11_35_40_818459411
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_40_818459411
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_41_188984079
++ mkdir 2012_11_19_11_35_41_188984079
++ cd 2012_11_19_11_35_41_188984079
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_41_188984079
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_41_542071734
++ mkdir 2012_11_19_11_35_41_542071734
++ cd 2012_11_19_11_35_41_542071734
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_41_542071734
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x038208
++ MSR_PKG_POWER_LIMIT=0x038208
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_41_917666150
++ mkdir 2012_11_19_11_35_41_917666150
++ cd 2012_11_19_11_35_41_917666150
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_41_917666150
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_42_250629208
++ mkdir 2012_11_19_11_35_42_250629208
++ cd 2012_11_19_11_35_42_250629208
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_42_250629208
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_42_568792580
++ mkdir 2012_11_19_11_35_42_568792580
++ cd 2012_11_19_11_35_42_568792580
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_42_568792580
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_42_885195086
++ mkdir 2012_11_19_11_35_42_885195086
++ cd 2012_11_19_11_35_42_885195086
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_42_885195086
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_43_210529759
++ mkdir 2012_11_19_11_35_43_210529759
++ cd 2012_11_19_11_35_43_210529759
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_43_210529759
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_43_520506716
++ mkdir 2012_11_19_11_35_43_520506716
++ cd 2012_11_19_11_35_43_520506716
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_43_520506716
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_43_810602749
++ mkdir 2012_11_19_11_35_43_810602749
++ cd 2012_11_19_11_35_43_810602749
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_43_810602749
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_44_146702524
++ mkdir 2012_11_19_11_35_44_146702524
++ cd 2012_11_19_11_35_44_146702524
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_44_146702524
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_44_489144593
++ mkdir 2012_11_19_11_35_44_489144593
++ cd 2012_11_19_11_35_44_489144593
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_44_489144593
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_44_807583778
++ mkdir 2012_11_19_11_35_44_807583778
++ cd 2012_11_19_11_35_44_807583778
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_44_807583778
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl56: task 9: Exited with exit code 2
+srun: error: rzmerl78: task 13: Exited with exit code 2
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl73: task 12: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 10: Exited with exit code 2
+srun: error: rzmerl89: task 15: Exited with exit code 2
+srun: error: rzmerl80: task 14: Exited with exit code 2
+srun: error: rzmerl68: task 11: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_45_126194524
++ mkdir 2012_11_19_11_35_45_126194524
++ cd 2012_11_19_11_35_45_126194524
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_45_126194524
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
+srun: error: rzmerl73: task 12: Exited with exit code 2
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl56: task 9: Exited with exit code 2
+srun: error: rzmerl68: task 11: Exited with exit code 2
+srun: error: rzmerl78: task 13: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl80: task 14: Exited with exit code 2
+srun: error: rzmerl89: task 15: Exited with exit code 2
+srun: error: rzmerl60: task 10: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_45_457639818
++ mkdir 2012_11_19_11_35_45_457639818
++ cd 2012_11_19_11_35_45_457639818
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_45_457639818
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_45_819466498
++ mkdir 2012_11_19_11_35_45_819466498
++ cd 2012_11_19_11_35_45_819466498
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_45_819466498
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_46_164203812
++ mkdir 2012_11_19_11_35_46_164203812
++ cd 2012_11_19_11_35_46_164203812
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_46_164203812
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
+srun: error: rzmerl56: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl60: task 10: Exited with exit code 2
+srun: error: rzmerl80: task 14: Exited with exit code 2
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl89: task 15: Exited with exit code 2
+srun: error: rzmerl68: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 12: Exited with exit code 2
+srun: error: rzmerl78: task 13: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_46_649064606
++ mkdir 2012_11_19_11_35_46_649064606
++ cd 2012_11_19_11_35_46_649064606
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_46_649064606
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_46_966187185
++ mkdir 2012_11_19_11_35_46_966187185
++ cd 2012_11_19_11_35_46_966187185
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_46_966187185
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_47_313462104
++ mkdir 2012_11_19_11_35_47_313462104
++ cd 2012_11_19_11_35_47_313462104
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_47_313462104
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_47_615503228
++ mkdir 2012_11_19_11_35_47_615503228
++ cd 2012_11_19_11_35_47_615503228
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_47_615503228
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_47_928745131
++ mkdir 2012_11_19_11_35_47_928745131
++ cd 2012_11_19_11_35_47_928745131
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_47_928745131
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_48_306943904
++ mkdir 2012_11_19_11_35_48_306943904
++ cd 2012_11_19_11_35_48_306943904
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_48_306943904
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_48_670220828
++ mkdir 2012_11_19_11_35_48_670220828
++ cd 2012_11_19_11_35_48_670220828
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_48_670220828
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x038280
++ MSR_PKG_POWER_LIMIT=0x038280
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_48_988982560
++ mkdir 2012_11_19_11_35_48_988982560
++ cd 2012_11_19_11_35_48_988982560
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_48_988982560
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_49_352584950
++ mkdir 2012_11_19_11_35_49_352584950
++ cd 2012_11_19_11_35_49_352584950
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_49_352584950
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_49_677005373
++ mkdir 2012_11_19_11_35_49_677005373
++ cd 2012_11_19_11_35_49_677005373
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_49_677005373
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_50_002864499
++ mkdir 2012_11_19_11_35_50_002864499
++ cd 2012_11_19_11_35_50_002864499
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_50_002864499
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_50_360939768
++ mkdir 2012_11_19_11_35_50_360939768
++ cd 2012_11_19_11_35_50_360939768
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_50_360939768
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_50_687383001
++ mkdir 2012_11_19_11_35_50_687383001
++ cd 2012_11_19_11_35_50_687383001
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_50_687383001
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_51_012785229
++ mkdir 2012_11_19_11_35_51_012785229
++ cd 2012_11_19_11_35_51_012785229
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_51_012785229
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_51_644654848
++ mkdir 2012_11_19_11_35_51_644654848
++ cd 2012_11_19_11_35_51_644654848
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_51_644654848
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_52_087943736
++ mkdir 2012_11_19_11_35_52_087943736
++ cd 2012_11_19_11_35_52_087943736
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_52_087943736
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_52_415066738
++ mkdir 2012_11_19_11_35_52_415066738
++ cd 2012_11_19_11_35_52_415066738
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_52_415066738
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_52_700703186
++ mkdir 2012_11_19_11_35_52_700703186
++ cd 2012_11_19_11_35_52_700703186
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_52_700703186
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_53_030761740
++ mkdir 2012_11_19_11_35_53_030761740
++ cd 2012_11_19_11_35_53_030761740
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_53_030761740
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_53_370995494
++ mkdir 2012_11_19_11_35_53_370995494
++ cd 2012_11_19_11_35_53_370995494
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_53_370995494
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_53_686669533
++ mkdir 2012_11_19_11_35_53_686669533
++ cd 2012_11_19_11_35_53_686669533
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_53_686669533
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl73: task 12: Exited with exit code 2
+srun: error: rzmerl78: task 13: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl45: task 7: Exited with exit code 2
+srun: error: rzmerl60: task 10: Exited with exit code 2
+srun: error: rzmerl68: task 11: Exited with exit code 2
+srun: error: rzmerl56: task 9: Exited with exit code 2
+srun: error: rzmerl89: task 15: Exited with exit code 2
+srun: error: rzmerl80: task 14: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_53_994217300
++ mkdir 2012_11_19_11_35_53_994217300
++ cd 2012_11_19_11_35_53_994217300
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_53_994217300
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_54_322836568
++ mkdir 2012_11_19_11_35_54_322836568
++ cd 2012_11_19_11_35_54_322836568
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_54_322836568
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_54_656491050
++ mkdir 2012_11_19_11_35_54_656491050
++ cd 2012_11_19_11_35_54_656491050
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_54_656491050
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_55_030780258
++ mkdir 2012_11_19_11_35_55_030780258
++ cd 2012_11_19_11_35_55_030780258
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_55_030780258
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_55_324174721
++ mkdir 2012_11_19_11_35_55_324174721
++ cd 2012_11_19_11_35_55_324174721
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_55_324174721
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_55_674852381
++ mkdir 2012_11_19_11_35_55_674852381
++ cd 2012_11_19_11_35_55_674852381
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_55_674852381
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_56_026516989
++ mkdir 2012_11_19_11_35_56_026516989
++ cd 2012_11_19_11_35_56_026516989
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_56_026516989
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x0382f8
++ MSR_PKG_POWER_LIMIT=0x0382f8
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_56_417795041
++ mkdir 2012_11_19_11_35_56_417795041
++ cd 2012_11_19_11_35_56_417795041
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_56_417795041
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_56_804029020
++ mkdir 2012_11_19_11_35_56_804029020
++ cd 2012_11_19_11_35_56_804029020
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_56_804029020
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_57_145725627
++ mkdir 2012_11_19_11_35_57_145725627
++ cd 2012_11_19_11_35_57_145725627
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_57_145725627
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_57_472087680
++ mkdir 2012_11_19_11_35_57_472087680
++ cd 2012_11_19_11_35_57_472087680
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_57_472087680
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_57_835305524
++ mkdir 2012_11_19_11_35_57_835305524
++ cd 2012_11_19_11_35_57_835305524
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_57_835305524
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_58_447828346
++ mkdir 2012_11_19_11_35_58_447828346
++ cd 2012_11_19_11_35_58_447828346
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_58_447828346
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_58_821503282
++ mkdir 2012_11_19_11_35_58_821503282
++ cd 2012_11_19_11_35_58_821503282
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_58_821503282
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_59_191945053
++ mkdir 2012_11_19_11_35_59_191945053
++ cd 2012_11_19_11_35_59_191945053
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_59_191945053
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_59_546773449
++ mkdir 2012_11_19_11_35_59_546773449
++ cd 2012_11_19_11_35_59_546773449
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_59_546773449
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_59_897643100
++ mkdir 2012_11_19_11_35_59_897643100
++ cd 2012_11_19_11_35_59_897643100
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_59_897643100
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl45: task 7: Exited with exit code 2
+srun: error: rzmerl22: task 1: Exited with exit code 2
+srun: error: rzmerl42: task 6: Exited with exit code 2
+srun: error: rzmerl21: task 0: Exited with exit code 2
+srun: error: rzmerl35: task 5: Exited with exit code 2
+srun: error: rzmerl30: task 3: Exited with exit code 2
+srun: error: rzmerl80: task 14: Exited with exit code 2
+srun: error: rzmerl78: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 11: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl32: task 4: Exited with exit code 2
+srun: error: rzmerl56: task 9: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 10: Exited with exit code 2
+srun: error: rzmerl89: task 15: Exited with exit code 2
+srun: error: rzmerl73: task 12: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_00_231527685
++ mkdir 2012_11_19_11_36_00_231527685
++ cd 2012_11_19_11_36_00_231527685
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_00_231527685
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_00_643633550
++ mkdir 2012_11_19_11_36_00_643633550
++ cd 2012_11_19_11_36_00_643633550
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_00_643633550
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_01_027477527
++ mkdir 2012_11_19_11_36_01_027477527
++ cd 2012_11_19_11_36_01_027477527
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_01_027477527
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_01_429612746
++ mkdir 2012_11_19_11_36_01_429612746
++ cd 2012_11_19_11_36_01_429612746
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_01_429612746
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_01_767513816
++ mkdir 2012_11_19_11_36_01_767513816
++ cd 2012_11_19_11_36_01_767513816
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_01_767513816
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_02_107107474
++ mkdir 2012_11_19_11_36_02_107107474
++ cd 2012_11_19_11_36_02_107107474
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_02_107107474
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_02_465690276
++ mkdir 2012_11_19_11_36_02_465690276
++ cd 2012_11_19_11_36_02_465690276
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_02_465690276
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_02_795264595
++ mkdir 2012_11_19_11_36_02_795264595
++ cd 2012_11_19_11_36_02_795264595
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_02_795264595
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_03_135610348
++ mkdir 2012_11_19_11_36_03_135610348
++ cd 2012_11_19_11_36_03_135610348
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_03_135610348
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_03_472173322
++ mkdir 2012_11_19_11_36_03_472173322
++ cd 2012_11_19_11_36_03_472173322
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_03_472173322
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_03_834678124
++ mkdir 2012_11_19_11_36_03_834678124
++ cd 2012_11_19_11_36_03_834678124
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_03_834678124
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../bmark1
+srun: error: rzmerl45: task 8: Exited with exit code 2
+srun: error: rzmerl22: task 2: Exited with exit code 2
+srun: error: rzmerl21: task 1: Exited with exit code 2
+srun: error: rzmerl30: task 4: Exited with exit code 2
+srun: error: rzmerl95: task 20: Exited with exit code 2
+srun: error: rzmerl73: task 13: Exited with exit code 2
+srun: error: rzmerl32: task 5: Exited with exit code 2
+srun: error: rzmerl91: task 17: Exited with exit code 2
+srun: error: rzmerl42: task 7: Exited with exit code 2
+srun: error: rzmerl110: task 24: Exited with exit code 2
+srun: error: rzmerl104: task 23: Exited with exit code 2
+srun: error: rzmerl35: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 9: Exited with exit code 2
+srun: error: rzmerl114: task 26: Exited with exit code 2
+srun: error: rzmerl68: task 12: Exited with exit code 2
+srun: error: rzmerl89: task 16: Exited with exit code 2
+srun: error: rzmerl133: task 30: Exited with exit code 2
+srun: error: rzmerl120: task 28: Exited with exit code 2
+srun: error: rzmerl78: task 14: Exited with exit code 2
+srun: error: rzmerl56: task 10: Exited with exit code 2
+srun: error: rzmerl25: task 3: Exited with exit code 2
+srun: error: rzmerl134: task 31: Exited with exit code 2
+srun: error: rzmerl127: task 29: Exited with exit code 2
+srun: error: rzmerl94: task 19: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl97: task 21: Exited with exit code 2
+srun: error: rzmerl111: task 25: Exited with exit code 2
+srun: error: rzmerl60: task 11: Exited with exit code 2
+srun: error: rzmerl93: task 18: Exited with exit code 2
+srun: error: rzmerl19: task 0: Exited with exit code 2
+srun: error: rzmerl116: task 27: Exited with exit code 2
+srun: error: rzmerl80: task 15: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
