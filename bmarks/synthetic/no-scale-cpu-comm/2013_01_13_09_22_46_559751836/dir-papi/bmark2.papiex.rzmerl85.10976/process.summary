@@ -1,0 +1,45 @@
+papiex version                : 0.99rc9
+Executable                    : /p/lscratchrza/rountree/single-node/bmarks/synthetic/no-scale-cpu-comm/bmark2
+Arguments                     : 
+Processor                     : Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+Clockrate                     : 2601.000000
+Hostname                      : rzmerl85
+Options                       : DIR,PAPI_L3_TCA,PAPI_L3_TCM,NO_MPI_GATHER,NO_MPI_PROF
+Domain                        : User
+Parent process id             : 10949
+Process id                    : 10976
+Num. of threads               : 11
+Start                         : Sun Jan 13 09:22:46 2013
+Finish                        : Sun Jan 13 09:23:22 2013
+
+Derived Metrics:
+CPU Utilization ..............................             0.91
+I/O Cycles % .................................             0.00
+
+
+
+
+Program Statistics:
+                             min                     max                    mean      coef. of variation
+Real usecs:	      3.5048e+07	     3.52193e+07	     3.50734e+07	            0.00
+Real cycles:	     9.09024e+10	     9.13468e+10	     9.09683e+10	            0.00 
+Proc usecs:	            2805	     3.49946e+07	     3.17705e+07	            0.32 
+Proc cycles:	      7.2932e+06	      9.1021e+10	      8.2635e+10	            0.32 
+I/O cycles:	               0	               0	               0	            -nan 
+PAPI_L3_TCA:	            1521	      1.0822e+07	          987634	            3.15
+PAPI_L3_TCM:	              45	            9036	             997	            2.55
+
+Cumulative Process Counts:
+Real usecs ...................................      3.85808e+08
+Real cycles ..................................      1.00065e+12
+Proc usecs ...................................      3.49475e+08
+Proc cycles ..................................      9.08985e+11
+I/O cycles ...................................                0
+PAPI_L3_TCA ..................................       1.0864e+07
+PAPI_L3_TCM ..................................            10977
+
+Event descriptions:
+PAPI_L3_TCA                   : Level 3 total cache accesses
+PAPI_L3_TCM                   : Level 3 cache misses
+
+Derived event descriptions:

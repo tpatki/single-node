@@ -1,0 +1,2528 @@
++ i=16
++ minthreads=4
++ export PKG_MINW_MINS=0x38198
++ PKG_MINW_MINS=0x38198
++ export PP0_MINW_MINS=0x38198
++ PP0_MINW_MINS=0x38198
++ export DRAM_MINW_MINS=0x38078
++ DRAM_MINW_MINS=0x38078
++ export MSR_PKG_POWER_LIMIT=0x0
++ MSR_PKG_POWER_LIMIT=0x0
++ export MSR_PP0_POWER_LIMIT=0x0
++ MSR_PP0_POWER_LIMIT=0x0
++ export MSR_DRAM_POWER_LIMIT=0x0
++ MSR_DRAM_POWER_LIMIT=0x0
++ export MSR_RANK_MOD=1
++ MSR_RANK_MOD=1
++ export SAMPLE=0
++ SAMPLE=0
++ t=0
++ export TURBO_ENABLE=1
++ TURBO_ENABLE=1
++ export FUNC_INTERCEPT=0
++ FUNC_INTERCEPT=0
++ export READ_WRITE=0
++ READ_WRITE=0
++ export READ_ONLY=1
++ READ_ONLY=1
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_01_15_429205675
++ mkdir 2013_01_13_09_01_15_429205675
++ cd 2013_01_13_09_01_15_429205675
++ touch out.dat
++ env
++ echo 2013_01_13_09_01_15_429205675
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-ONLY mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 19.033731 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_01_35_670259308
++ mkdir 2013_01_13_09_01_35_670259308
++ cd 2013_01_13_09_01_35_670259308
++ touch out.dat
++ env
++ echo 2013_01_13_09_01_35_670259308
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-ONLY mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 21.833400 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_01_58_300985357
++ mkdir 2013_01_13_09_01_58_300985357
++ cd 2013_01_13_09_01_58_300985357
++ touch out.dat
++ env
++ echo 2013_01_13_09_01_58_300985357
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-ONLY mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 24.610406 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_02_23_548432574
++ mkdir 2013_01_13_09_02_23_548432574
++ cd 2013_01_13_09_02_23_548432574
++ touch out.dat
++ env
++ echo 2013_01_13_09_02_23_548432574
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-ONLY mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.489872 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_02_53_811792748
++ mkdir 2013_01_13_09_02_53_811792748
++ cd 2013_01_13_09_02_53_811792748
++ touch out.dat
++ env
++ echo 2013_01_13_09_02_53_811792748
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-ONLY mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.628146 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_03_30_111396219
++ mkdir 2013_01_13_09_03_30_111396219
++ cd 2013_01_13_09_03_30_111396219
++ touch out.dat
++ env
++ echo 2013_01_13_09_03_30_111396219
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-ONLY mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 47.597110 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_04_18_394232440
++ mkdir 2013_01_13_09_04_18_394232440
++ cd 2013_01_13_09_04_18_394232440
++ touch out.dat
++ env
++ echo 2013_01_13_09_04_18_394232440
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-ONLY mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 69.262313 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ export TURBO_ENABLE=0
++ TURBO_ENABLE=0
++ export FUNC_INTERCEPT=0
++ FUNC_INTERCEPT=0
++ export READ_WRITE=1
++ READ_WRITE=1
++ export READ_ONLY=0
++ READ_ONLY=0
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x38198
++ MSR_PKG_POWER_LIMIT=0x38198
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_05_28_515445939
++ mkdir 2013_01_13_09_05_28_515445939
++ cd 2013_01_13_09_05_28_515445939
++ touch out.dat
++ env
++ echo 2013_01_13_09_05_28_515445939
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 28.808367 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_05_58_166208499
++ mkdir 2013_01_13_09_05_58_166208499
++ cd 2013_01_13_09_05_58_166208499
++ touch out.dat
++ env
++ echo 2013_01_13_09_05_58_166208499
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 30.792406 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_06_29_681253666
++ mkdir 2013_01_13_09_06_29_681253666
++ cd 2013_01_13_09_06_29_681253666
++ touch out.dat
++ env
++ echo 2013_01_13_09_06_29_681253666
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 33.072007 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_07_03_569350769
++ mkdir 2013_01_13_09_07_03_569350769
++ cd 2013_01_13_09_07_03_569350769
++ touch out.dat
++ env
++ echo 2013_01_13_09_07_03_569350769
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 36.804297 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_07_41_057234151
++ mkdir 2013_01_13_09_07_41_057234151
++ cd 2013_01_13_09_07_41_057234151
++ touch out.dat
++ env
++ echo 2013_01_13_09_07_41_057234151
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.960734 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_08_25_755695126
++ mkdir 2013_01_13_09_08_25_755695126
++ cd 2013_01_13_09_08_25_755695126
++ touch out.dat
++ env
++ echo 2013_01_13_09_08_25_755695126
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.363609 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_09_24_878879320
++ mkdir 2013_01_13_09_09_24_878879320
++ cd 2013_01_13_09_09_24_878879320
++ touch out.dat
++ env
++ echo 2013_01_13_09_09_24_878879320
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.677874 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x381B8
++ MSR_PKG_POWER_LIMIT=0x381B8
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_10_53_220916959
++ mkdir 2013_01_13_09_10_53_220916959
++ cd 2013_01_13_09_10_53_220916959
++ touch out.dat
++ env
++ echo 2013_01_13_09_10_53_220916959
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 27.118790 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_11_21_129392610
++ mkdir 2013_01_13_09_11_21_129392610
++ cd 2013_01_13_09_11_21_129392610
++ touch out.dat
++ env
++ echo 2013_01_13_09_11_21_129392610
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 28.962995 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_11_50_878961107
++ mkdir 2013_01_13_09_11_50_878961107
++ cd 2013_01_13_09_11_50_878961107
++ touch out.dat
++ env
++ echo 2013_01_13_09_11_50_878961107
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 31.423827 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_12_23_115128832
++ mkdir 2013_01_13_09_12_23_115128832
++ cd 2013_01_13_09_12_23_115128832
++ touch out.dat
++ env
++ echo 2013_01_13_09_12_23_115128832
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.112847 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_12_59_107924726
++ mkdir 2013_01_13_09_12_59_107924726
++ cd 2013_01_13_09_12_59_107924726
++ touch out.dat
++ env
++ echo 2013_01_13_09_12_59_107924726
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.825759 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_13_43_607148102
++ mkdir 2013_01_13_09_13_43_607148102
++ cd 2013_01_13_09_13_43_607148102
++ touch out.dat
++ env
++ echo 2013_01_13_09_13_43_607148102
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.541565 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_14_42_955490498
++ mkdir 2013_01_13_09_14_42_955490498
++ cd 2013_01_13_09_14_42_955490498
++ touch out.dat
++ env
++ echo 2013_01_13_09_14_42_955490498
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.685865 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x381E0
++ MSR_PKG_POWER_LIMIT=0x381E0
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_16_11_282219431
++ mkdir 2013_01_13_09_16_11_282219431
++ cd 2013_01_13_09_16_11_282219431
++ touch out.dat
++ env
++ echo 2013_01_13_09_16_11_282219431
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.391328 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_16_37_594678524
++ mkdir 2013_01_13_09_16_37_594678524
++ cd 2013_01_13_09_16_37_594678524
++ touch out.dat
++ env
++ echo 2013_01_13_09_16_37_594678524
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 27.106969 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_17_05_472761759
++ mkdir 2013_01_13_09_17_05_472761759
++ cd 2013_01_13_09_17_05_472761759
++ touch out.dat
++ env
++ echo 2013_01_13_09_17_05_472761759
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.239756 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_17_35_576665774
++ mkdir 2013_01_13_09_17_35_576665774
++ cd 2013_01_13_09_17_35_576665774
++ touch out.dat
++ env
++ echo 2013_01_13_09_17_35_576665774
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.084352 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_18_11_579505254
++ mkdir 2013_01_13_09_18_11_579505254
++ cd 2013_01_13_09_18_11_579505254
++ touch out.dat
++ env
++ echo 2013_01_13_09_18_11_579505254
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.946480 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_18_56_260344667
++ mkdir 2013_01_13_09_18_56_260344667
++ cd 2013_01_13_09_18_56_260344667
++ touch out.dat
++ env
++ echo 2013_01_13_09_18_56_260344667
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.332428 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_19_55_409562815
++ mkdir 2013_01_13_09_19_55_409562815
++ cd 2013_01_13_09_19_55_409562815
++ touch out.dat
++ env
++ echo 2013_01_13_09_19_55_409562815
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.719814 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x038208
++ MSR_PKG_POWER_LIMIT=0x038208
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_21_23_939584341
++ mkdir 2013_01_13_09_21_23_939584341
++ cd 2013_01_13_09_21_23_939584341
++ touch out.dat
++ env
++ echo 2013_01_13_09_21_23_939584341
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 23.929859 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_21_48_638357652
++ mkdir 2013_01_13_09_21_48_638357652
++ cd 2013_01_13_09_21_48_638357652
++ touch out.dat
++ env
++ echo 2013_01_13_09_21_48_638357652
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.819901 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_22_15_126700752
++ mkdir 2013_01_13_09_22_15_126700752
++ cd 2013_01_13_09_22_15_126700752
++ touch out.dat
++ env
++ echo 2013_01_13_09_22_15_126700752
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.296579 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_22_45_210291192
++ mkdir 2013_01_13_09_22_45_210291192
++ cd 2013_01_13_09_22_45_210291192
++ touch out.dat
++ env
++ echo 2013_01_13_09_22_45_210291192
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.190091 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_23_21_099536963
++ mkdir 2013_01_13_09_23_21_099536963
++ cd 2013_01_13_09_23_21_099536963
++ touch out.dat
++ env
++ echo 2013_01_13_09_23_21_099536963
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.944755 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_24_05_806319392
++ mkdir 2013_01_13_09_24_05_806319392
++ cd 2013_01_13_09_24_05_806319392
++ touch out.dat
++ env
++ echo 2013_01_13_09_24_05_806319392
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.506294 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_25_05_089698088
++ mkdir 2013_01_13_09_25_05_089698088
++ cd 2013_01_13_09_25_05_089698088
++ touch out.dat
++ env
++ echo 2013_01_13_09_25_05_089698088
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.678416 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x38230
++ MSR_PKG_POWER_LIMIT=0x38230
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_26_33_388575202
++ mkdir 2013_01_13_09_26_33_388575202
++ cd 2013_01_13_09_26_33_388575202
++ touch out.dat
++ env
++ echo 2013_01_13_09_26_33_388575202
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 23.046992 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_26_57_313823629
++ mkdir 2013_01_13_09_26_57_313823629
++ cd 2013_01_13_09_26_57_313823629
++ touch out.dat
++ env
++ echo 2013_01_13_09_26_57_313823629
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.109084 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_27_23_171402493
++ mkdir 2013_01_13_09_27_23_171402493
++ cd 2013_01_13_09_27_23_171402493
++ touch out.dat
++ env
++ echo 2013_01_13_09_27_23_171402493
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.369826 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_27_53_255445258
++ mkdir 2013_01_13_09_27_53_255445258
++ cd 2013_01_13_09_27_53_255445258
++ touch out.dat
++ env
++ echo 2013_01_13_09_27_53_255445258
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.192203 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_28_29_157630907
++ mkdir 2013_01_13_09_28_29_157630907
++ cd 2013_01_13_09_28_29_157630907
++ touch out.dat
++ env
++ echo 2013_01_13_09_28_29_157630907
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.947466 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_29_13_832856011
++ mkdir 2013_01_13_09_29_13_832856011
++ cd 2013_01_13_09_29_13_832856011
++ touch out.dat
++ env
++ echo 2013_01_13_09_29_13_832856011
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.481184 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_30_13_187327287
++ mkdir 2013_01_13_09_30_13_187327287
++ cd 2013_01_13_09_30_13_187327287
++ touch out.dat
++ env
++ echo 2013_01_13_09_30_13_187327287
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.588366 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x38258
++ MSR_PKG_POWER_LIMIT=0x38258
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_31_41_544485179
++ mkdir 2013_01_13_09_31_41_544485179
++ cd 2013_01_13_09_31_41_544485179
++ touch out.dat
++ env
++ echo 2013_01_13_09_31_41_544485179
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 21.951527 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_32_04_217877801
++ mkdir 2013_01_13_09_32_04_217877801
++ cd 2013_01_13_09_32_04_217877801
++ touch out.dat
++ env
++ echo 2013_01_13_09_32_04_217877801
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.085684 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_32_30_102896481
++ mkdir 2013_01_13_09_32_30_102896481
++ cd 2013_01_13_09_32_30_102896481
++ touch out.dat
++ env
++ echo 2013_01_13_09_32_30_102896481
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.349723 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_33_00_215235623
++ mkdir 2013_01_13_09_33_00_215235623
++ cd 2013_01_13_09_33_00_215235623
++ touch out.dat
++ env
++ echo 2013_01_13_09_33_00_215235623
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.122550 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_33_36_145992885
++ mkdir 2013_01_13_09_33_36_145992885
++ cd 2013_01_13_09_33_36_145992885
++ touch out.dat
++ env
++ echo 2013_01_13_09_33_36_145992885
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.961038 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_34_20_846454663
++ mkdir 2013_01_13_09_34_20_846454663
++ cd 2013_01_13_09_34_20_846454663
++ touch out.dat
++ env
++ echo 2013_01_13_09_34_20_846454663
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.553032 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_35_20_185411509
++ mkdir 2013_01_13_09_35_20_185411509
++ cd 2013_01_13_09_35_20_185411509
++ touch out.dat
++ env
++ echo 2013_01_13_09_35_20_185411509
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.693221 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x38280
++ MSR_PKG_POWER_LIMIT=0x38280
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_36_48_505427015
++ mkdir 2013_01_13_09_36_48_505427015
++ cd 2013_01_13_09_36_48_505427015
++ touch out.dat
++ env
++ echo 2013_01_13_09_36_48_505427015
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 22.062813 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_37_11_410972256
++ mkdir 2013_01_13_09_37_11_410972256
++ cd 2013_01_13_09_37_11_410972256
++ touch out.dat
++ env
++ echo 2013_01_13_09_37_11_410972256
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.172059 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_37_37_519898989
++ mkdir 2013_01_13_09_37_37_519898989
++ cd 2013_01_13_09_37_37_519898989
++ touch out.dat
++ env
++ echo 2013_01_13_09_37_37_519898989
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.219288 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_38_07_417316046
++ mkdir 2013_01_13_09_38_07_417316046
++ cd 2013_01_13_09_38_07_417316046
++ touch out.dat
++ env
++ echo 2013_01_13_09_38_07_417316046
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.057232 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_38_43_327664944
++ mkdir 2013_01_13_09_38_43_327664944
++ cd 2013_01_13_09_38_43_327664944
++ touch out.dat
++ env
++ echo 2013_01_13_09_38_43_327664944
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.775036 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_39_27_806372848
++ mkdir 2013_01_13_09_39_27_806372848
++ cd 2013_01_13_09_39_27_806372848
++ touch out.dat
++ env
++ echo 2013_01_13_09_39_27_806372848
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.484787 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_40_27_129495110
++ mkdir 2013_01_13_09_40_27_129495110
++ cd 2013_01_13_09_40_27_129495110
++ touch out.dat
++ env
++ echo 2013_01_13_09_40_27_129495110
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.663026 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x382A8
++ MSR_PKG_POWER_LIMIT=0x382A8
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_41_55_426091328
++ mkdir 2013_01_13_09_41_55_426091328
++ cd 2013_01_13_09_41_55_426091328
++ touch out.dat
++ env
++ echo 2013_01_13_09_41_55_426091328
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 22.047836 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_42_18_305654801
++ mkdir 2013_01_13_09_42_18_305654801
++ cd 2013_01_13_09_42_18_305654801
++ touch out.dat
++ env
++ echo 2013_01_13_09_42_18_305654801
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.097893 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_42_44_194941558
++ mkdir 2013_01_13_09_42_44_194941558
++ cd 2013_01_13_09_42_44_194941558
++ touch out.dat
++ env
++ echo 2013_01_13_09_42_44_194941558
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.351048 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_43_14_264199523
++ mkdir 2013_01_13_09_43_14_264199523
++ cd 2013_01_13_09_43_14_264199523
++ touch out.dat
++ env
++ echo 2013_01_13_09_43_14_264199523
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.111596 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_43_50_181422998
++ mkdir 2013_01_13_09_43_50_181422998
++ cd 2013_01_13_09_43_50_181422998
++ touch out.dat
++ env
++ echo 2013_01_13_09_43_50_181422998
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.943951 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_44_34_882248934
++ mkdir 2013_01_13_09_44_34_882248934
++ cd 2013_01_13_09_44_34_882248934
++ touch out.dat
++ env
++ echo 2013_01_13_09_44_34_882248934
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.531810 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_45_34_196634857
++ mkdir 2013_01_13_09_45_34_196634857
++ cd 2013_01_13_09_45_34_196634857
++ touch out.dat
++ env
++ echo 2013_01_13_09_45_34_196634857
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.679041 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x382D0
++ MSR_PKG_POWER_LIMIT=0x382D0
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_47_02_521747388
++ mkdir 2013_01_13_09_47_02_521747388
++ cd 2013_01_13_09_47_02_521747388
++ touch out.dat
++ env
++ echo 2013_01_13_09_47_02_521747388
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 22.052558 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_47_25_423816209
++ mkdir 2013_01_13_09_47_25_423816209
++ cd 2013_01_13_09_47_25_423816209
++ touch out.dat
++ env
++ echo 2013_01_13_09_47_25_423816209
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.108257 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_47_51_278476157
++ mkdir 2013_01_13_09_47_51_278476157
++ cd 2013_01_13_09_47_51_278476157
++ touch out.dat
++ env
++ echo 2013_01_13_09_47_51_278476157
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.269481 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_48_21_372691282
++ mkdir 2013_01_13_09_48_21_372691282
++ cd 2013_01_13_09_48_21_372691282
++ touch out.dat
++ env
++ echo 2013_01_13_09_48_21_372691282
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.200466 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_48_57_268400409
++ mkdir 2013_01_13_09_48_57_268400409
++ cd 2013_01_13_09_48_57_268400409
++ touch out.dat
++ env
++ echo 2013_01_13_09_48_57_268400409
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.829409 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_49_41_738082941
++ mkdir 2013_01_13_09_49_41_738082941
++ cd 2013_01_13_09_49_41_738082941
++ touch out.dat
++ env
++ echo 2013_01_13_09_49_41_738082941
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.519295 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_50_41_032564409
++ mkdir 2013_01_13_09_50_41_032564409
++ cd 2013_01_13_09_50_41_032564409
++ touch out.dat
++ env
++ echo 2013_01_13_09_50_41_032564409
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.679162 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x0382f8
++ MSR_PKG_POWER_LIMIT=0x0382f8
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_52_09_324368073
++ mkdir 2013_01_13_09_52_09_324368073
++ cd 2013_01_13_09_52_09_324368073
++ touch out.dat
++ env
++ echo 2013_01_13_09_52_09_324368073
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 21.961276 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_52_32_030376686
++ mkdir 2013_01_13_09_52_32_030376686
++ cd 2013_01_13_09_52_32_030376686
++ touch out.dat
++ env
++ echo 2013_01_13_09_52_32_030376686
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.179881 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_52_58_095534666
++ mkdir 2013_01_13_09_52_58_095534666
++ cd 2013_01_13_09_52_58_095534666
++ touch out.dat
++ env
++ echo 2013_01_13_09_52_58_095534666
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.271515 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_53_28_187572354
++ mkdir 2013_01_13_09_53_28_187572354
++ cd 2013_01_13_09_53_28_187572354
++ touch out.dat
++ env
++ echo 2013_01_13_09_53_28_187572354
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.179971 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_54_04_093187849
++ mkdir 2013_01_13_09_54_04_093187849
++ cd 2013_01_13_09_54_04_093187849
++ touch out.dat
++ env
++ echo 2013_01_13_09_54_04_093187849
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.800728 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_54_48_563580356
++ mkdir 2013_01_13_09_54_48_563580356
++ cd 2013_01_13_09_54_48_563580356
++ touch out.dat
++ env
++ echo 2013_01_13_09_54_48_563580356
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.418830 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_55_47_671494632
++ mkdir 2013_01_13_09_55_47_671494632
++ cd 2013_01_13_09_55_47_671494632
++ touch out.dat
++ env
++ echo 2013_01_13_09_55_47_671494632
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.675265 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x038320
++ MSR_PKG_POWER_LIMIT=0x038320
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_57_16_456983891
++ mkdir 2013_01_13_09_57_16_456983891
++ cd 2013_01_13_09_57_16_456983891
++ touch out.dat
++ env
++ echo 2013_01_13_09_57_16_456983891
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 22.042733 secs
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_57_39_350793796
++ mkdir 2013_01_13_09_57_39_350793796
++ cd 2013_01_13_09_57_39_350793796
++ touch out.dat
++ env
++ echo 2013_01_13_09_57_39_350793796
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 25.180237 secs
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_58_05_192476856
++ mkdir 2013_01_13_09_58_05_192476856
++ cd 2013_01_13_09_58_05_192476856
++ touch out.dat
++ env
++ echo 2013_01_13_09_58_05_192476856
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 29.340457 secs
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_58_35_289590052
++ mkdir 2013_01_13_09_58_35_289590052
++ cd 2013_01_13_09_58_35_289590052
++ touch out.dat
++ env
++ echo 2013_01_13_09_58_35_289590052
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 35.069999 secs
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_59_11_164696430
++ mkdir 2013_01_13_09_59_11_164696430
++ cd 2013_01_13_09_59_11_164696430
++ touch out.dat
++ env
++ echo 2013_01_13_09_59_11_164696430
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 43.779615 secs
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_09_59_55_655162159
++ mkdir 2013_01_13_09_59_55_655162159
++ cd 2013_01_13_09_59_55_655162159
++ touch out.dat
++ env
++ echo 2013_01_13_09_59_55_655162159
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 58.530807 secs
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_13_10_00_54_974819326
++ mkdir 2013_01_13_10_00_54_974819326
++ cd 2013_01_13_10_00_54_974819326
++ touch out.dat
++ env
++ echo 2013_01_13_10_00_54_974819326
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../bmark2
+
+In READ-WRITE mode.
+
+Each chunk is: 42949672960
+Iterations: 3
+Nodes: 1
+Time is: 87.683427 secs
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
