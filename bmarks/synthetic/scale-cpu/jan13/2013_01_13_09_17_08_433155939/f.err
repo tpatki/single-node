@@ -1,0 +1,92 @@
+writemsr: Verification successful. core_fd[0][0]=8, cpu=0, core=0 cpu+core=0 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][1]=9, cpu=0, core=1 cpu+core=1 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][2]=10, cpu=0, core=2 cpu+core=2 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][3]=11, cpu=0, core=3 cpu+core=3 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][4]=12, cpu=0, core=4 cpu+core=4 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][5]=13, cpu=0, core=5 cpu+core=5 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][6]=14, cpu=0, core=6 cpu+core=6 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][7]=15, cpu=0, core=7 cpu+core=7 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][0]=16, cpu=1, core=0 cpu+core=8 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][1]=17, cpu=1, core=1 cpu+core=9 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][2]=18, cpu=1, core=2 cpu+core=10 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][3]=19, cpu=1, core=3 cpu+core=11 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][4]=20, cpu=1, core=4 cpu+core=12 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][5]=21, cpu=1, core=5 cpu+core=13 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][6]=22, cpu=1, core=6 cpu+core=14 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][7]=23, cpu=1, core=7 cpu+core=15 msr=409 (0x199).
+msr_opt.c::212 setting MSR_PKG_POWER_LIMIT to 0x381e0 on cpu 0
+writemsr: Verification successful. core_fd[0][0]=8, cpu=0, core=0 cpu+core=0 msr=1552 (0x610).
+msr_opt.c::217 setting MSR_PP0_POWER_LIMIT to 0x0 on cpu 0
+msr_opt.c::223 setting MSR_DRAM_POWER_LIMIT to 0x0 on cpu 0
+msr_opt.c::212 setting MSR_PKG_POWER_LIMIT to 0x381e0 on cpu 1
+writemsr: Verification successful. core_fd[1][0]=16, cpu=1, core=0 cpu+core=8 msr=1552 (0x610).
+msr_opt.c::217 setting MSR_PP0_POWER_LIMIT to 0x0 on cpu 1
+msr_opt.c::223 setting MSR_DRAM_POWER_LIMIT to 0x0 on cpu 1
+writemsr: Verification successful. core_fd[0][0]=8, cpu=0, core=0 cpu+core=0 msr=1552 (0x610).
+writemsr: Verification successful. core_fd[0][0]=8, cpu=0, core=0 cpu+core=0 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][1]=9, cpu=0, core=1 cpu+core=1 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][2]=10, cpu=0, core=2 cpu+core=2 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][3]=11, cpu=0, core=3 cpu+core=3 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][4]=12, cpu=0, core=4 cpu+core=4 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][5]=13, cpu=0, core=5 cpu+core=5 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][6]=14, cpu=0, core=6 cpu+core=6 msr=409 (0x199).
+writemsr: Verification successful. core_fd[0][7]=15, cpu=0, core=7 cpu+core=7 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][0]=16, cpu=1, core=0 cpu+core=8 msr=1552 (0x610).
+writemsr: Verification successful. core_fd[1][0]=16, cpu=1, core=0 cpu+core=8 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][1]=17, cpu=1, core=1 cpu+core=9 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][2]=18, cpu=1, core=2 cpu+core=10 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][3]=19, cpu=1, core=3 cpu+core=11 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][4]=20, cpu=1, core=4 cpu+core=12 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][5]=21, cpu=1, core=5 cpu+core=13 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][6]=22, cpu=1, core=6 cpu+core=14 msr=409 (0x199).
+writemsr: Verification successful. core_fd[1][7]=23, cpu=1, core=7 cpu+core=15 msr=409 (0x199).
+
+papiex:
+papiex: Storing output in [dir-papi/bmark1.papiex.rzmerl126.6268]
+papiex:
+
+papiex version                : 0.99rc9
+Executable                    : /p/lscratchrza/rountree/single-node/bmarks/synthetic/scale-cpu/bmark1
+Arguments                     : 
+Processor                     : Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+Clockrate                     : 2601.000000
+Hostname                      : rzmerl126
+Options                       : DIR,PAPI_L3_TCA,PAPI_L3_TCM,NO_MPI_GATHER,NO_MPI_PROF
+Domain                        : User
+Parent process id             : 6241
+Process id                    : 6268
+Num. of threads               : 13
+Start                         : Sun Jan 13 09:17:08 2013
+Finish                        : Sun Jan 13 09:17:38 2013
+
+Derived Metrics:
+CPU Utilization ..............................             0.92
+I/O Cycles % .................................             0.00
+
+
+
+
+Program Statistics:
+                             min                     max                    mean      coef. of variation
+Real usecs:	     2.93847e+07	     2.95169e+07	     2.94083e+07	            0.00
+Real cycles:	     7.62128e+10	     7.65558e+10	     7.62739e+10	            0.00 
+Proc usecs:	            2425	     2.93493e+07	     2.70816e+07	            0.29 
+Proc cycles:	     6.30482e+06	     7.63375e+10	     7.04392e+10	            0.29 
+I/O cycles:	               0	               0	               0	            -nan 
+PAPI_L3_TCA:	            1472	           38927	            6017	            1.77
+PAPI_L3_TCM:	              56	            6517	             665	            2.55
+
+Cumulative Process Counts:
+Real usecs ...................................      3.82307e+08
+Real cycles ..................................      9.91561e+11
+Proc usecs ...................................      3.52061e+08
+Proc cycles ..................................      9.15709e+11
+I/O cycles ...................................                0
+PAPI_L3_TCA ..................................            78227
+PAPI_L3_TCM ..................................             8651
+
+Event descriptions:
+PAPI_L3_TCA                   : Level 3 total cache accesses
+PAPI_L3_TCM                   : Level 3 cache misses
+
+Derived event descriptions:

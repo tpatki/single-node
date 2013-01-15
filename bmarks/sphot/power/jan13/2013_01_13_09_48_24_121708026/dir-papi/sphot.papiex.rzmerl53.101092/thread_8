@@ -1,0 +1,32 @@
+papiex version                : 0.99rc9
+Executable                    : /p/lscratchrza/rountree/single-node/bmarks/sphot/sphot
+Arguments                     : 
+Processor                     : Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+Clockrate                     : 2601.000000
+Hostname                      : rzmerl53
+Options                       : DIR,PAPI_L3_TCA,PAPI_L3_TCM,NO_MPI_GATHER,NO_MPI_PROF
+Domain                        : User
+Parent process id             : 101065
+Process id                    : 101092
+Thread id:		8
+Start                         : Sun Jan 13 09:48:24 2013
+Finish                        : Sun Jan 13 09:50:43 2013
+
+Derived Metrics:
+CPU Utilization ..............................             0.98
+I/O Cycles % .................................             0.00
+
+
+Real usecs ...................................      1.39212e+08
+Real cycles ..................................      3.61063e+11
+Proc usecs ...................................      1.36199e+08
+Proc cycles ..................................      3.54254e+11
+I/O cycles ...................................                0
+PAPI_L3_TCA ..................................      2.71351e+08
+PAPI_L3_TCM ..................................      3.01846e+07
+
+Event descriptions:
+PAPI_L3_TCA                   : Level 3 total cache accesses
+PAPI_L3_TCM                   : Level 3 cache misses
+
+Derived event descriptions:
