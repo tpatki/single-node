@@ -1,0 +1,2024 @@
++ i=16
++ minthreads=4
++ export PKG_MINW_MINS=0x38198
++ PKG_MINW_MINS=0x38198
++ export PP0_MINW_MINS=0x38198
++ PP0_MINW_MINS=0x38198
++ export DRAM_MINW_MINS=0x38078
++ DRAM_MINW_MINS=0x38078
++ export MSR_PKG_POWER_LIMIT=0x0
++ MSR_PKG_POWER_LIMIT=0x0
++ export MSR_PP0_POWER_LIMIT=0x0
++ MSR_PP0_POWER_LIMIT=0x0
++ export MSR_DRAM_POWER_LIMIT=0x0
++ MSR_DRAM_POWER_LIMIT=0x0
++ export MSR_RANK_MOD=1
++ MSR_RANK_MOD=1
++ export SAMPLE=0
++ SAMPLE=0
++ t=0
++ export TURBO_ENABLE=1
++ TURBO_ENABLE=1
++ export FUNC_INTERCEPT=0
++ FUNC_INTERCEPT=0
++ export READ_WRITE=0
++ READ_WRITE=0
++ export READ_ONLY=1
++ READ_ONLY=1
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_52_738457102
++ mkdir 2013_01_14_21_51_52_738457102
++ cd 2013_01_14_21_51_52_738457102
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_52_738457102
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_53_140041590
++ mkdir 2013_01_14_21_51_53_140041590
++ cd 2013_01_14_21_51_53_140041590
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_53_140041590
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_53_458160586
++ mkdir 2013_01_14_21_51_53_458160586
++ cd 2013_01_14_21_51_53_458160586
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_53_458160586
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_53_775344793
++ mkdir 2013_01_14_21_51_53_775344793
++ cd 2013_01_14_21_51_53_775344793
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_53_775344793
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_54_087176776
++ mkdir 2013_01_14_21_51_54_087176776
++ cd 2013_01_14_21_51_54_087176776
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_54_087176776
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_54_396525249
++ mkdir 2013_01_14_21_51_54_396525249
++ cd 2013_01_14_21_51_54_396525249
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_54_396525249
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_54_726761107
++ mkdir 2013_01_14_21_51_54_726761107
++ cd 2013_01_14_21_51_54_726761107
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_54_726761107
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 1 '
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ export TURBO_ENABLE=0
++ TURBO_ENABLE=0
++ export FUNC_INTERCEPT=0
++ FUNC_INTERCEPT=0
++ export READ_WRITE=1
++ READ_WRITE=1
++ export READ_ONLY=0
++ READ_ONLY=0
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x38198
++ MSR_PKG_POWER_LIMIT=0x38198
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_55_051101167
++ mkdir 2013_01_14_21_51_55_051101167
++ cd 2013_01_14_21_51_55_051101167
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_55_051101167
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_55_369789542
++ mkdir 2013_01_14_21_51_55_369789542
++ cd 2013_01_14_21_51_55_369789542
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_55_369789542
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_55_691260872
++ mkdir 2013_01_14_21_51_55_691260872
++ cd 2013_01_14_21_51_55_691260872
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_55_691260872
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_56_008780896
++ mkdir 2013_01_14_21_51_56_008780896
++ cd 2013_01_14_21_51_56_008780896
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_56_008780896
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_56_325252690
++ mkdir 2013_01_14_21_51_56_325252690
++ cd 2013_01_14_21_51_56_325252690
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_56_325252690
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_56_647849451
++ mkdir 2013_01_14_21_51_56_647849451
++ cd 2013_01_14_21_51_56_647849451
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_56_647849451
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_56_965866667
++ mkdir 2013_01_14_21_51_56_965866667
++ cd 2013_01_14_21_51_56_965866667
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_56_965866667
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x381B8
++ MSR_PKG_POWER_LIMIT=0x381B8
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_57_289808299
++ mkdir 2013_01_14_21_51_57_289808299
++ cd 2013_01_14_21_51_57_289808299
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_57_289808299
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_57_623612158
++ mkdir 2013_01_14_21_51_57_623612158
++ cd 2013_01_14_21_51_57_623612158
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_57_623612158
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_57_944652166
++ mkdir 2013_01_14_21_51_57_944652166
++ cd 2013_01_14_21_51_57_944652166
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_57_944652166
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_58_260533498
++ mkdir 2013_01_14_21_51_58_260533498
++ cd 2013_01_14_21_51_58_260533498
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_58_260533498
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_58_593325643
++ mkdir 2013_01_14_21_51_58_593325643
++ cd 2013_01_14_21_51_58_593325643
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_58_593325643
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_58_920849989
++ mkdir 2013_01_14_21_51_58_920849989
++ cd 2013_01_14_21_51_58_920849989
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_58_920849989
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_59_244780304
++ mkdir 2013_01_14_21_51_59_244780304
++ cd 2013_01_14_21_51_59_244780304
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_59_244780304
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x381E0
++ MSR_PKG_POWER_LIMIT=0x381E0
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_59_676862369
++ mkdir 2013_01_14_21_51_59_676862369
++ cd 2013_01_14_21_51_59_676862369
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_59_676862369
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_51_59_984572203
++ mkdir 2013_01_14_21_51_59_984572203
++ cd 2013_01_14_21_51_59_984572203
++ touch out.dat
++ env
++ echo 2013_01_14_21_51_59_984572203
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_00_300978524
++ mkdir 2013_01_14_21_52_00_300978524
++ cd 2013_01_14_21_52_00_300978524
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_00_300978524
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_00_617734473
++ mkdir 2013_01_14_21_52_00_617734473
++ cd 2013_01_14_21_52_00_617734473
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_00_617734473
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_00_943885693
++ mkdir 2013_01_14_21_52_00_943885693
++ cd 2013_01_14_21_52_00_943885693
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_00_943885693
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_01_284996099
++ mkdir 2013_01_14_21_52_01_284996099
++ cd 2013_01_14_21_52_01_284996099
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_01_284996099
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_01_607307235
++ mkdir 2013_01_14_21_52_01_607307235
++ cd 2013_01_14_21_52_01_607307235
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_01_607307235
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x038208
++ MSR_PKG_POWER_LIMIT=0x038208
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_01_932819842
++ mkdir 2013_01_14_21_52_01_932819842
++ cd 2013_01_14_21_52_01_932819842
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_01_932819842
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_02_244605309
++ mkdir 2013_01_14_21_52_02_244605309
++ cd 2013_01_14_21_52_02_244605309
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_02_244605309
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_02_545610392
++ mkdir 2013_01_14_21_52_02_545610392
++ cd 2013_01_14_21_52_02_545610392
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_02_545610392
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_02_857874917
++ mkdir 2013_01_14_21_52_02_857874917
++ cd 2013_01_14_21_52_02_857874917
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_02_857874917
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_03_193216826
++ mkdir 2013_01_14_21_52_03_193216826
++ cd 2013_01_14_21_52_03_193216826
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_03_193216826
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_03_507700413
++ mkdir 2013_01_14_21_52_03_507700413
++ cd 2013_01_14_21_52_03_507700413
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_03_507700413
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_03_832585544
++ mkdir 2013_01_14_21_52_03_832585544
++ cd 2013_01_14_21_52_03_832585544
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_03_832585544
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x38230
++ MSR_PKG_POWER_LIMIT=0x38230
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_04_136993239
++ mkdir 2013_01_14_21_52_04_136993239
++ cd 2013_01_14_21_52_04_136993239
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_04_136993239
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_04_460031849
++ mkdir 2013_01_14_21_52_04_460031849
++ cd 2013_01_14_21_52_04_460031849
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_04_460031849
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_04_788885503
++ mkdir 2013_01_14_21_52_04_788885503
++ cd 2013_01_14_21_52_04_788885503
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_04_788885503
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_05_101687813
++ mkdir 2013_01_14_21_52_05_101687813
++ cd 2013_01_14_21_52_05_101687813
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_05_101687813
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_05_416834505
++ mkdir 2013_01_14_21_52_05_416834505
++ cd 2013_01_14_21_52_05_416834505
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_05_416834505
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_05_728812092
++ mkdir 2013_01_14_21_52_05_728812092
++ cd 2013_01_14_21_52_05_728812092
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_05_728812092
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_06_052872059
++ mkdir 2013_01_14_21_52_06_052872059
++ cd 2013_01_14_21_52_06_052872059
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_06_052872059
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x38258
++ MSR_PKG_POWER_LIMIT=0x38258
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_06_372527856
++ mkdir 2013_01_14_21_52_06_372527856
++ cd 2013_01_14_21_52_06_372527856
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_06_372527856
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_06_677003870
++ mkdir 2013_01_14_21_52_06_677003870
++ cd 2013_01_14_21_52_06_677003870
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_06_677003870
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_06_989730323
++ mkdir 2013_01_14_21_52_06_989730323
++ cd 2013_01_14_21_52_06_989730323
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_06_989730323
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_07_298834713
++ mkdir 2013_01_14_21_52_07_298834713
++ cd 2013_01_14_21_52_07_298834713
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_07_298834713
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_07_612670444
++ mkdir 2013_01_14_21_52_07_612670444
++ cd 2013_01_14_21_52_07_612670444
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_07_612670444
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_07_928251287
++ mkdir 2013_01_14_21_52_07_928251287
++ cd 2013_01_14_21_52_07_928251287
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_07_928251287
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_08_237623506
++ mkdir 2013_01_14_21_52_08_237623506
++ cd 2013_01_14_21_52_08_237623506
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_08_237623506
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x38280
++ MSR_PKG_POWER_LIMIT=0x38280
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_08_553324114
++ mkdir 2013_01_14_21_52_08_553324114
++ cd 2013_01_14_21_52_08_553324114
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_08_553324114
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_08_873231992
++ mkdir 2013_01_14_21_52_08_873231992
++ cd 2013_01_14_21_52_08_873231992
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_08_873231992
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_09_190566042
++ mkdir 2013_01_14_21_52_09_190566042
++ cd 2013_01_14_21_52_09_190566042
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_09_190566042
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_09_517569606
++ mkdir 2013_01_14_21_52_09_517569606
++ cd 2013_01_14_21_52_09_517569606
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_09_517569606
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_09_829742506
++ mkdir 2013_01_14_21_52_09_829742506
++ cd 2013_01_14_21_52_09_829742506
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_09_829742506
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_10_141540531
++ mkdir 2013_01_14_21_52_10_141540531
++ cd 2013_01_14_21_52_10_141540531
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_10_141540531
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_10_453810387
++ mkdir 2013_01_14_21_52_10_453810387
++ cd 2013_01_14_21_52_10_453810387
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_10_453810387
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x382A8
++ MSR_PKG_POWER_LIMIT=0x382A8
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_10_777871013
++ mkdir 2013_01_14_21_52_10_777871013
++ cd 2013_01_14_21_52_10_777871013
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_10_777871013
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_11_094786198
++ mkdir 2013_01_14_21_52_11_094786198
++ cd 2013_01_14_21_52_11_094786198
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_11_094786198
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_11_407840120
++ mkdir 2013_01_14_21_52_11_407840120
++ cd 2013_01_14_21_52_11_407840120
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_11_407840120
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_11_719248030
++ mkdir 2013_01_14_21_52_11_719248030
++ cd 2013_01_14_21_52_11_719248030
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_11_719248030
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_12_035702747
++ mkdir 2013_01_14_21_52_12_035702747
++ cd 2013_01_14_21_52_12_035702747
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_12_035702747
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_12_325898112
++ mkdir 2013_01_14_21_52_12_325898112
++ cd 2013_01_14_21_52_12_325898112
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_12_325898112
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_12_646779056
++ mkdir 2013_01_14_21_52_12_646779056
++ cd 2013_01_14_21_52_12_646779056
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_12_646779056
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x382D0
++ MSR_PKG_POWER_LIMIT=0x382D0
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_12_979076219
++ mkdir 2013_01_14_21_52_12_979076219
++ cd 2013_01_14_21_52_12_979076219
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_12_979076219
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_13_298787007
++ mkdir 2013_01_14_21_52_13_298787007
++ cd 2013_01_14_21_52_13_298787007
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_13_298787007
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_13_618794340
++ mkdir 2013_01_14_21_52_13_618794340
++ cd 2013_01_14_21_52_13_618794340
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_13_618794340
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_13_937756311
++ mkdir 2013_01_14_21_52_13_937756311
++ cd 2013_01_14_21_52_13_937756311
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_13_937756311
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_14_258564211
++ mkdir 2013_01_14_21_52_14_258564211
++ cd 2013_01_14_21_52_14_258564211
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_14_258564211
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_14_575807945
++ mkdir 2013_01_14_21_52_14_575807945
++ cd 2013_01_14_21_52_14_575807945
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_14_575807945
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_14_888766535
++ mkdir 2013_01_14_21_52_14_888766535
++ cd 2013_01_14_21_52_14_888766535
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_14_888766535
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x0382f8
++ MSR_PKG_POWER_LIMIT=0x0382f8
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_15_206925905
++ mkdir 2013_01_14_21_52_15_206925905
++ cd 2013_01_14_21_52_15_206925905
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_15_206925905
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_15_548648289
++ mkdir 2013_01_14_21_52_15_548648289
++ cd 2013_01_14_21_52_15_548648289
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_15_548648289
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_15_860805405
++ mkdir 2013_01_14_21_52_15_860805405
++ cd 2013_01_14_21_52_15_860805405
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_15_860805405
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_16_168833200
++ mkdir 2013_01_14_21_52_16_168833200
++ cd 2013_01_14_21_52_16_168833200
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_16_168833200
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_17_279646202
++ mkdir 2013_01_14_21_52_17_279646202
++ cd 2013_01_14_21_52_17_279646202
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_17_279646202
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_17_608445367
++ mkdir 2013_01_14_21_52_17_608445367
++ cd 2013_01_14_21_52_17_608445367
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_17_608445367
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_17_882878249
++ mkdir 2013_01_14_21_52_17_882878249
++ cd 2013_01_14_21_52_17_882878249
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_17_882878249
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ for pkg in 0x38198 0x381B8 0x381E0 0x038208 0x38230 0x38258 0x38280 0x382A8 0x382D0 0x0382f8 0x038320
++ export MSR_PKG_POWER_LIMIT=0x038320
++ MSR_PKG_POWER_LIMIT=0x038320
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_18_196392213
++ mkdir 2013_01_14_21_52_18_196392213
++ cd 2013_01_14_21_52_18_196392213
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_18_196392213
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_18_519819304
++ mkdir 2013_01_14_21_52_18_519819304
++ cd 2013_01_14_21_52_18_519819304
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_18_519819304
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_18_844830433
++ mkdir 2013_01_14_21_52_18_844830433
++ cd 2013_01_14_21_52_18_844830433
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_18_844830433
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_19_703296557
++ mkdir 2013_01_14_21_52_19_703296557
++ cd 2013_01_14_21_52_19_703296557
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_19_703296557
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_20_031010466
++ mkdir 2013_01_14_21_52_20_031010466
++ cd 2013_01_14_21_52_20_031010466
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_20_031010466
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_20_338873404
++ mkdir 2013_01_14_21_52_20_338873404
++ cd 2013_01_14_21_52_20_338873404
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_20_338873404
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_14_21_52_20_639877542
++ mkdir 2013_01_14_21_52_20_639877542
++ cd 2013_01_14_21_52_20_639877542
++ touch out.dat
++ env
++ echo 2013_01_14_21_52_20_639877542
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 1
++ echo 'turbo: 0'
++ srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/bt-mz.C.1
+srun: error: rzmerl90: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
