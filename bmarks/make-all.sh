@@ -20,24 +20,24 @@ make clean && make -j8 rapl-icc
 #cd lulesh
 #make clean && make
 
-cd ../../../sphot
-make clean && make
+#cd ../../../sphot
+#make clean && make
 
-cd ../NAS-MZ
+cd ../../../NAS-MZ
 make clean 
 mkdir -p bin
 sh makeBT_MZ.sh
 sh makeSP_MZ.sh
 sh makeLU_MZ.sh
 
-cd ../synthetic/scale-cpu
-make clean && make
+#cd ../synthetic/scale-cpu
+#make clean && make
 
-cd ../no-scale-cpu-comm
-make clean && make
+#cd ../no-scale-cpu-comm
+#make clean && make
 
-cd ../no-scale-mem-comm
-make clean && make
+#cd ../no-scale-mem-comm
+#make clean && make
 
-cd ../scale-mem
-make clean && make
+#cd ../scale-mem
+#make clean && make
