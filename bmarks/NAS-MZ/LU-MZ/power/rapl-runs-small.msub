@@ -5,7 +5,7 @@
 #MSUB -q pbatch
 #MSUB -m abe
 #MSUB -M rountree@llnl.gov,tpatki@email.arizona.edu
-#MSUB -l walltime=10:00:00
+#MSUB -l walltime=15:00:00
 
 set -x
 
