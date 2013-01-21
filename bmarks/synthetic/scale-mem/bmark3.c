@@ -9,7 +9,7 @@
 
 //Large is 2^32 atm
 #define LARGE 4096
-#define ITERS 500
+#define ITERS 4
 //Total array size = 65536 * 8 bytes; 512 MB
 //#define FIXED_SZ 131072
 #define FIXED_SZ 16777216

@@ -8,7 +8,7 @@
 #msub -V rapl-runs-small.msub
 
 cd NAS-MZ/LU-MZ/power
-msub rapl-runs-small.msub
+#msub rapl-runs-small.msub
 
 
 #cd ../../../lulesh-oct30

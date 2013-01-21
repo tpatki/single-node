@@ -9,7 +9,7 @@
 
 //Large is 2^32 atm
 #define LARGE 4096
-#define ITERS 250
+#define ITERS 4
 //Need to run same number of iters as the no-scale-cpu version; which is 20.
 #define COMM_ITERS 20 
 #define COMM2_ITERS 256
