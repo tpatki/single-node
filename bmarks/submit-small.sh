@@ -24,7 +24,7 @@ msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 
-cd ../../synthetic/no-scale-mem-comm
+cd ../../../synthetic/no-scale-mem-comm
 msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
