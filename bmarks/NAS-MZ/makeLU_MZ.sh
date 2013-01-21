@@ -4,7 +4,7 @@
 
 #make lu-mz CLASS=A NPROCS=16
 
-make lu-mz CLASS=B NPROCS=1
+make lu-mz CLASS=C NPROCS=1
 #make lu-mz CLASS=B NPROCS=2
 #make lu-mz CLASS=B NPROCS=4
 #make lu-mz CLASS=B NPROCS=8

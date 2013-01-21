@@ -50,7 +50,7 @@ i=16
                 echo 'nodes: ' 1 >> info
                 echo 'turbo: 1 '>> info
 
-        	srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/lu-mz.C.1
+        	srun --nodes=1 --ntasks=1 -e f.err  ../../../bin/lu-mz.C.1
 
                 #srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../../bin/sp-mz.C.$j
 
@@ -92,7 +92,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 
 
                 #srun --nodes=1 --ntasks=1 -e f.err ../../sphot
-        	srun --nodes=1 --ntasks=1 -e f.err papiex -f dir-papi -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/lu-mz.C.1
+        	srun --nodes=1 --ntasks=1 -e f.err  ../../../bin/lu-mz.C.1
 
 #		srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../../bin/sp-mz.C.$j  
 
