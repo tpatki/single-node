@@ -30,7 +30,7 @@ make clean && make -j8 rapl-icc
 #sh makeSP_MZ.sh
 #sh makeLU_MZ.sh
 
-cd synthetic/scale-mem
+cd ../../../synthetic/scale-mem
 make clean && make
 
 #cd ../no-scale-cpu-comm
